@@ -2,7 +2,13 @@
   "name": "weather_app",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "3.5"
+    "@rails/webpacker": "3.5",
+    "babel-preset-react": "^6.24.1",
+    "date-fns": "^1.29.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "tachyons-components": "^1.0.1"
   },
   "devDependencies": {
     "webpack-dev-server": "2.11.2"
