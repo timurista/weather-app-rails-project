@@ -5,9 +5,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Cards from './components/cards.jsx';
+import Header from './components/header';
 
 const Main = props => (
-  <Cards />
+  <div>
+    <Header />
+    <Cards />
+  </div>
 )
 
 document.addEventListener('DOMContentLoaded', () => {
