@@ -10,6 +10,7 @@ const now = new Date();
 const kelvinToF = (kelvinValue) => (( kelvinValue - 273.15) * 9/5) + 32;
 
 const StyledConatiner = styled('ul')`
+  pt16
   list pl0
 `
 
@@ -40,7 +41,7 @@ const Card = ({ item, index }) => (
 
 const Cards = props => (
   <StyledConatiner>
-    {props.list.slice(0,5).map((item, index) => <Card item={item} index={index} />)}
+    {props.list.slice(0,5).map((item, index) => <Card item={item} key={item.id} index={index} />)}
   </StyledConatiner>
 )
 
