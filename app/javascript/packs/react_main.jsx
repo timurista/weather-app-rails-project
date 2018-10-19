@@ -6,6 +6,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Cards from './components/cards.jsx';
 import Header from './components/header';
+import "tachyons";
 
 const Main = props => (
   <div>
